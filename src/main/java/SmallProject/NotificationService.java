@@ -6,6 +6,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class NotificationService
 {
+
     private final MessageService messageService;
 
     @Autowired
@@ -13,6 +14,7 @@ public class NotificationService
     {
         this.messageService = messageService;
     }
+
     public void notifyUser(String text)
     {
         messageService.send(text);

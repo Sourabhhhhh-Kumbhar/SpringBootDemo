@@ -2,8 +2,7 @@ package SmallProject;
 
 public interface MessageService
 {
-    void sendMessage(String message);
+    void send(String message);
 }
 
-
-//The Interface//
+//The Interface
