@@ -1,4 +1,7 @@
 package ServiceLayer;
 
-public class DemoApplication {
+
+public class DemoApplication
+{
+
 }
