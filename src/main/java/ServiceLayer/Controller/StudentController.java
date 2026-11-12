@@ -2,6 +2,7 @@ package ServiceLayer.Controller;
 
 import ServiceLayer.Model.Student;
 import ServiceLayer.Service.StudentService;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -14,7 +15,7 @@ public class StudentController
     private final StudentService service;
 
     //AUTOWIRING: Spring injects StudentService
-    public StudentController(StuddentService service)
+    public StudentController(StudentService service)
     {
         this.service = service;
     }
@@ -22,12 +23,6 @@ public class StudentController
     public List<Student> getAll()
     {
         return service.getAllStudents();
-    }
-
-    @GetMapping("/{id}")
-    public String getGrade(@PathVariable int id)
-    {
-        return service.getGrade(id);
     }
 
     @GetMapping("/{id}/grade")
