@@ -33,7 +33,7 @@ public class StudentController
     @GetMapping("/{id}/grade")
     public String getGrade(@PathVariable int id)
     {
-        return service.getGrade(id;
+        return service.getGrade(id);
     }
 
     @PostMapping
