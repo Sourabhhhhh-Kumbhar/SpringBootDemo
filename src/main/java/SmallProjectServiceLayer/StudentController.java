@@ -17,11 +17,11 @@ public class StudentController {
         this.service = service;
     }
 
-    // GET http://localhost:8080/students  -> saare students
-    @GetMapping
-    public List<Student> getAll() {
-        return service.getAllStudents();
-    }
+//    // GET http://localhost:8080/students  -> saare students
+//    @GetMapping
+//    public List<Student> getAll() {
+//        return service.getAllStudents();
+//    }
 
     // POST http://localhost:8080/students -> naya student add
     @PostMapping
