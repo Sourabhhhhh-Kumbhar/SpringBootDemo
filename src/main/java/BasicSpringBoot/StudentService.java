@@ -1,6 +1,6 @@
 package BasicSpringBoot;
 
-import com.example.demo.repository.StudentRepository;
+import BasicSpringBoot.StudentRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
