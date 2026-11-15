@@ -14,8 +14,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  *                                  aur unke objects (beans) bana deta hai
  */
 @SpringBootApplication
-public class DemoApplication {
-
+public class DemoApplication
+{
     public static void main(String[] args) {
         // Spring container start hota hai, saare beans ban jaate hain,
         // embedded Tomcat server port 8080 pe chalu ho jaata hai
